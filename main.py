@@ -1,6 +1,6 @@
-number = int(input("Введите число: "))
-factorial = 1
-while 1 < number:
-    factorial *= number
-    number -= 1
-print (factorial) 
+number = int(input("Введите число: ")) # ввод числа с клавиатуры
+factorial = 1 # присвоение значения переменной 
+while 1 < number: #  цикл while  с условием
+    factorial *= number # рассчет факториала
+    number -= 1 # рассчет факториала
+print (factorial) # вывод результата
